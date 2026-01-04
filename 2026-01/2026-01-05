@@ -1,3 +1,9 @@
 ## ActionContextが持っている主なもの
 
 |中身|説明|
+|request|HttpServletRequestをMap形式で|
+|session|セッション（Map）|
+|application|ServletContext（Map）|
+|parameters|リクエストパラメータ|
+|valueStack|OGNL が参照するスタック|
+|locale|ロケール情報|
